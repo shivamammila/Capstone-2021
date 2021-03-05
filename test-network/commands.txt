@@ -1,0 +1,88 @@
+    1  sudo dpkg-reconfigure locales
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  sudo apt-get install curl git docker.io docker-compose golang nodejs npm
+    5  sudo usermod -a -G docker $USER
+    6  sudo apt-get install curl git docker.io docker-compose golang nodejs npm
+    7  sudo usermod -a -G docker $USER
+    8  sudo systemctl start docker
+    9  sudo systemctl enable docker
+   10  restart your computer after this step
+   11  groups
+   12  cd desktop
+   13  cd shiva-fabric
+   14  cd Desktop
+   15  curl -sSL ​http://bit.ly/2ysbOFE​ | bash -s 1.4.0
+   16  Curl -sSL ​http://bit.ly/2ysbOFE​ | bash -s 1.4.0
+   17  curl -sSL ​http://bit.ly/2ysbOFE​ | bash -s 1.4.0
+   18  curl -sSL ​http://bit.ly/2ysbOFE | bash -s 1.4.0
+   19  sudo dpkg-reconfigure locales
+   20  sudo apt-get update
+   21  sudo apt-get upgrade
+   22  sudo apt-get install curl git docker.io docker-compose golang nodejs npm
+   23  sudo systemctl start docker
+   24  sudo systemctl enable docker
+   25  groups
+   26  cd desktop
+   27  cd Desktop
+   28  curl -sSL http://bit.ly/2ysbOFE | bash -s
+   29  docker images
+   30  clear
+   31  cd fabric-samples
+   32  fab --version
+   33  cd ..cd ..
+   34  cd ..
+   35  fab --version
+   36  import fabric
+   37  fabric.version
+   38  import fabric.version
+   39  fabric.version.get_version() 2.3
+   40  fabric.version.get_version() '2.3'
+   41  docker images
+   42  cd Desktop
+   43  cd fabric-samples
+   44  cd test-network
+   45  ./network.sh generate
+   46  ./network.sh up
+   47  ./network.sh down
+   48  cd ..
+   49  cd fabcar
+   50  ./startFabric.sh
+   51  cd Desktop
+   52  ls
+   53  pwd
+   54  ls
+   55  cd fabric-samples/fabcar/javascript/
+   56  ls
+   57  node invoke.js 
+   58  cd ..
+   59  ls
+   60  sudo ./startFabric.sh 
+   61  docker ps -a
+   62  \ls
+   63  cd javascript/
+   64  ls
+   65  node enrollAdmin.js 
+   66  ls
+   67  cd ..
+   68  ls
+   69  ./ networkDown.sh 
+   70  ./networkDown.sh 
+   71  docker ps -a
+   72  docker ps
+   73  ls
+   74  cd javascript/
+   75  ls
+   76  node enrollAdmin.js 
+   77  cd ..
+   78  ls
+   79  cd ..
+   80  ls
+   81  cd test-network/
+   82  ls
+   83  ./network.sh 
+   84  ./network.sh down
+   85  ./network.sh up
+   86  ./network.sh createChannel
+   87  history
+   88  history > commands.txt

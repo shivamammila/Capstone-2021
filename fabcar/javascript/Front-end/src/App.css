@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+
+#root, .App {
+  height: 100%;
+}
+
+.wrapper, .menu {
+  height: 100%;
+}
+
+.ant-menu {
+  height: 100%;
+}
+
+.add-model-form, .add-pc-model-form {
+  margin: 5%;
+}

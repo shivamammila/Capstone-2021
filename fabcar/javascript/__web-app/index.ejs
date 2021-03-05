@@ -1,0 +1,25 @@
+<script>
+
+$(document).ready(function(){
+
+    $("#ship").click(function(){
+
+      $.post("http://52.15.203.98:3000/ship", function(data){
+
+      var parsedJson = $.parseJSON($.parseJSON(data));
+
+      console.log(parsedJson);
+
+      });
+	  
+	  $("#chainCodeQuery").click(function(){
+ $.get("http://52.15.203.98:3000/query",function(data){
+ var parsedJson =
+ $.parseJSON($.parseJSON(data));
+ $("#assetType").val(parsedJson.assetType);
+
+    });
+
+});
+
+</script>

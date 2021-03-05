@@ -1,0 +1,19 @@
+   {
+	"Common":{
+		"Wallet": "wallet",
+		"OrganisationMSP": "Org1MSP",
+		"network_channel":"mychannel",
+		"smartContract":"fabcar"
+	},
+	"adminEnroll": {
+		"CAauth": "ca.org1.example.com",
+		"Wallet": "wallet",
+		"adminIdentity": "admin",
+		"adminSecret": "adminpw"
+	},
+	"regisUser": {
+		"userIdentity":"keshav",
+		"Role":"client",
+		"Affiliation": "org1.department1"
+	}
+}
